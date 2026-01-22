@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.top-nav {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px white; /*solid*/
+}
+
+.nav-left {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.site-name {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-center {
+    text-align: center;
+    padding-top: 18px;
+}
+
+.nav-center a {
+    text-decoration: none;
+    color: #666;
+    margin: 0 10px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.nav-right {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+
+.btn-login {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-signup {
+    background: white;
+    color: black;
+    border: 1px white; /*solid*/
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.btn-info {
+    background: none;
+    border: 1px white; /*SOLID*/
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.hero-section {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);   /*base stackoverflow*/
+    width: 600px;
+    text-align: center;
+}
+
+
+
+.main-title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.search-container {
+    border: 1px solid white; /*SOLID*/
+    padding: 15px;
+    text-align: left;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.search-input {
+    width: 95%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.action-buttons {
+    margin-top: 15px;
+    position: relative;
+    height: 40px;
+}
+
+.action-btn {
+    background: white;
+    border: 1px  white; /*solid*/
+    border-radius: 15px;
+    padding: 5px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.btn-more {
+    position: absolute;
+    right: 0;
+    background: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
